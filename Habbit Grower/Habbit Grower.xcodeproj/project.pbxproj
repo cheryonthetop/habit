@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23A591E2335DDEB00A1949F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A591D2335DDEB00A1949F /* AppDelegate.swift */; };
+		A23A59202335DDEB00A1949F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A591F2335DDEB00A1949F /* SceneDelegate.swift */; };
+		A23A59232335DDEB00A1949F /* Habbit_Grower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A23A59212335DDEB00A1949F /* Habbit_Grower.xcdatamodeld */; };
+		A23A59252335DDEB00A1949F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A59242335DDEB00A1949F /* ContentView.swift */; };
+		A23A59272335DDEC00A1949F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23A59262335DDEC00A1949F /* Assets.xcassets */; };
+		A23A592A2335DDEC00A1949F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23A59292335DDEC00A1949F /* Preview Assets.xcassets */; };
+		A23A592D2335DDEC00A1949F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23A592B2335DDEC00A1949F /* LaunchScreen.storyboard */; };
+		A23A59382335DDEC00A1949F /* Habbit_GrowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A59372335DDEC00A1949F /* Habbit_GrowerTests.swift */; };
+		A23A59432335DDEC00A1949F /* Habbit_GrowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A59422335DDEC00A1949F /* Habbit_GrowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23A59342335DDEC00A1949F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23A59122335DDEB00A1949F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23A59192335DDEB00A1949F;
+			remoteInfo = "Habbit Grower";
+		};
+		A23A593F2335DDEC00A1949F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23A59122335DDEB00A1949F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23A59192335DDEB00A1949F;
+			remoteInfo = "Habbit Grower";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A23A591A2335DDEB00A1949F /* Habbit Grower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habbit Grower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23A591D2335DDEB00A1949F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A23A591F2335DDEB00A1949F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A23A59222335DDEB00A1949F /* Habbit_Grower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habbit_Grower.xcdatamodel; sourceTree = "<group>"; };
+		A23A59242335DDEB00A1949F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A23A59262335DDEC00A1949F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23A59292335DDEC00A1949F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A23A592C2335DDEC00A1949F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23A592E2335DDEC00A1949F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23A59332335DDEC00A1949F /* Habbit GrowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habbit GrowerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23A59372335DDEC00A1949F /* Habbit_GrowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habbit_GrowerTests.swift; sourceTree = "<group>"; };
+		A23A59392335DDEC00A1949F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23A593E2335DDEC00A1949F /* Habbit GrowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habbit GrowerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23A59422335DDEC00A1949F /* Habbit_GrowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habbit_GrowerUITests.swift; sourceTree = "<group>"; };
+		A23A59442335DDEC00A1949F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23A59172335DDEB00A1949F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A59302335DDEC00A1949F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A593B2335DDEC00A1949F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23A59112335DDEB00A1949F = {
+			isa = PBXGroup;
+			children = (
+				A23A591C2335DDEB00A1949F /* Habbit Grower */,
+				A23A59362335DDEC00A1949F /* Habbit GrowerTests */,
+				A23A59412335DDEC00A1949F /* Habbit GrowerUITests */,
+				A23A591B2335DDEB00A1949F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23A591B2335DDEB00A1949F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23A591A2335DDEB00A1949F /* Habbit Grower.app */,
+				A23A59332335DDEC00A1949F /* Habbit GrowerTests.xctest */,
+				A23A593E2335DDEC00A1949F /* Habbit GrowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23A591C2335DDEB00A1949F /* Habbit Grower */ = {
+			isa = PBXGroup;
+			children = (
+				A23A591D2335DDEB00A1949F /* AppDelegate.swift */,
+				A23A591F2335DDEB00A1949F /* SceneDelegate.swift */,
+				A23A59242335DDEB00A1949F /* ContentView.swift */,
+				A23A59262335DDEC00A1949F /* Assets.xcassets */,
+				A23A592B2335DDEC00A1949F /* LaunchScreen.storyboard */,
+				A23A592E2335DDEC00A1949F /* Info.plist */,
+				A23A59212335DDEB00A1949F /* Habbit_Grower.xcdatamodeld */,
+				A23A59282335DDEC00A1949F /* Preview Content */,
+			);
+			path = "Habbit Grower";
+			sourceTree = "<group>";
+		};
+		A23A59282335DDEC00A1949F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A23A59292335DDEC00A1949F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A23A59362335DDEC00A1949F /* Habbit GrowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23A59372335DDEC00A1949F /* Habbit_GrowerTests.swift */,
+				A23A59392335DDEC00A1949F /* Info.plist */,
+			);
+			path = "Habbit GrowerTests";
+			sourceTree = "<group>";
+		};
+		A23A59412335DDEC00A1949F /* Habbit GrowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A23A59422335DDEC00A1949F /* Habbit_GrowerUITests.swift */,
+				A23A59442335DDEC00A1949F /* Info.plist */,
+			);
+			path = "Habbit GrowerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23A59192335DDEB00A1949F /* Habbit Grower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23A59472335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit Grower" */;
+			buildPhases = (
+				A23A59162335DDEB00A1949F /* Sources */,
+				A23A59172335DDEB00A1949F /* Frameworks */,
+				A23A59182335DDEB00A1949F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Habbit Grower";
+			productName = "Habbit Grower";
+			productReference = A23A591A2335DDEB00A1949F /* Habbit Grower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23A59322335DDEC00A1949F /* Habbit GrowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23A594A2335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit GrowerTests" */;
+			buildPhases = (
+				A23A592F2335DDEC00A1949F /* Sources */,
+				A23A59302335DDEC00A1949F /* Frameworks */,
+				A23A59312335DDEC00A1949F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23A59352335DDEC00A1949F /* PBXTargetDependency */,
+			);
+			name = "Habbit GrowerTests";
+			productName = "Habbit GrowerTests";
+			productReference = A23A59332335DDEC00A1949F /* Habbit GrowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A23A593D2335DDEC00A1949F /* Habbit GrowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23A594D2335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit GrowerUITests" */;
+			buildPhases = (
+				A23A593A2335DDEC00A1949F /* Sources */,
+				A23A593B2335DDEC00A1949F /* Frameworks */,
+				A23A593C2335DDEC00A1949F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23A59402335DDEC00A1949F /* PBXTargetDependency */,
+			);
+			name = "Habbit GrowerUITests";
+			productName = "Habbit GrowerUITests";
+			productReference = A23A593E2335DDEC00A1949F /* Habbit GrowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23A59122335DDEB00A1949F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Wendy Zhang";
+				TargetAttributes = {
+					A23A59192335DDEB00A1949F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A23A59322335DDEC00A1949F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A23A59192335DDEB00A1949F;
+					};
+					A23A593D2335DDEC00A1949F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A23A59192335DDEB00A1949F;
+					};
+				};
+			};
+			buildConfigurationList = A23A59152335DDEB00A1949F /* Build configuration list for PBXProject "Habbit Grower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23A59112335DDEB00A1949F;
+			productRefGroup = A23A591B2335DDEB00A1949F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23A59192335DDEB00A1949F /* Habbit Grower */,
+				A23A59322335DDEC00A1949F /* Habbit GrowerTests */,
+				A23A593D2335DDEC00A1949F /* Habbit GrowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23A59182335DDEB00A1949F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23A592D2335DDEC00A1949F /* LaunchScreen.storyboard in Resources */,
+				A23A592A2335DDEC00A1949F /* Preview Assets.xcassets in Resources */,
+				A23A59272335DDEC00A1949F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A59312335DDEC00A1949F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A593C2335DDEC00A1949F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23A59162335DDEB00A1949F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23A591E2335DDEB00A1949F /* AppDelegate.swift in Sources */,
+				A23A59232335DDEB00A1949F /* Habbit_Grower.xcdatamodeld in Sources */,
+				A23A59252335DDEB00A1949F /* ContentView.swift in Sources */,
+				A23A59202335DDEB00A1949F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A592F2335DDEC00A1949F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23A59382335DDEC00A1949F /* Habbit_GrowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23A593A2335DDEC00A1949F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23A59432335DDEC00A1949F /* Habbit_GrowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23A59352335DDEC00A1949F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23A59192335DDEB00A1949F /* Habbit Grower */;
+			targetProxy = A23A59342335DDEC00A1949F /* PBXContainerItemProxy */;
+		};
+		A23A59402335DDEC00A1949F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23A59192335DDEB00A1949F /* Habbit Grower */;
+			targetProxy = A23A593F2335DDEC00A1949F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23A592B2335DDEC00A1949F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23A592C2335DDEC00A1949F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23A59452335DDEC00A1949F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A23A59462335DDEC00A1949F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23A59482335DDEC00A1949F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbit Grower/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Habbit Grower/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-Grower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23A59492335DDEC00A1949F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Habbit Grower/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Habbit Grower/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-Grower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A23A594B2335DDEC00A1949F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Habbit GrowerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-GrowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habbit Grower.app/Habbit Grower";
+			};
+			name = Debug;
+		};
+		A23A594C2335DDEC00A1949F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Habbit GrowerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-GrowerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habbit Grower.app/Habbit Grower";
+			};
+			name = Release;
+		};
+		A23A594E2335DDEC00A1949F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Habbit GrowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-GrowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habbit Grower";
+			};
+			name = Debug;
+		};
+		A23A594F2335DDEC00A1949F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Habbit GrowerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.example.Habbit-GrowerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habbit Grower";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23A59152335DDEB00A1949F /* Build configuration list for PBXProject "Habbit Grower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23A59452335DDEC00A1949F /* Debug */,
+				A23A59462335DDEC00A1949F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23A59472335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit Grower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23A59482335DDEC00A1949F /* Debug */,
+				A23A59492335DDEC00A1949F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23A594A2335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit GrowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23A594B2335DDEC00A1949F /* Debug */,
+				A23A594C2335DDEC00A1949F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23A594D2335DDEC00A1949F /* Build configuration list for PBXNativeTarget "Habbit GrowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23A594E2335DDEC00A1949F /* Debug */,
+				A23A594F2335DDEC00A1949F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A23A59212335DDEB00A1949F /* Habbit_Grower.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A23A59222335DDEB00A1949F /* Habbit_Grower.xcdatamodel */,
+			);
+			currentVersion = A23A59222335DDEB00A1949F /* Habbit_Grower.xcdatamodel */;
+			path = Habbit_Grower.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A23A59122335DDEB00A1949F /* Project object */;
+}
