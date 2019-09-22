@@ -16,18 +16,14 @@ public class Habit: NSManagedObject {
     
     var id: String!
     var birthday: Date!
-    var week: Int!
-    var month: Int!
-    var year: Int!
     var lastClockedIn: Date!
-    var health: String!
-    var healthXP: Double!
-    var healthXPperSecond: Double!
-    var mood: String!
-    var level: Int!
-    var exp: Double!
-    var maxExp: Double!
     var image: UIImage!
+    var healthXP = 100.0
+    var healthXPperSecond = 100.0 / 604800.0
+    var mood = "happy"
+    var level = 1
+    var exp = 0.0
+    var maxExp = 100.0
     
     func changeName(name: String){
         self.name = name
@@ -77,26 +73,6 @@ public class Habit: NSManagedObject {
     
     func updateClockedIn(){
         self.lastClockedIn = Date()
-        
-        // anniversary
-        if DateInterval(start: birthday, end: lastClockedIn).duration > 604800.0 * Double(week){
-            if week % 30 == 0 {
-                // show X MONTH ANNIVERSARY ON SCREEN
-                month += 1
-                week += 1
-            }
-            else if week % 52 == 2 {
-                
-                // show X YEAR ANNIVERSARY ON SCREEN
-                year += 1
-                week += 1
-            }
-            else {
-                // show X YEAR AANIVERSARY ON SCreEN
-                week += 1
-            }
-            
-        }
         
         if healthXP + 23 <= 100{
             self.healthXP += 23

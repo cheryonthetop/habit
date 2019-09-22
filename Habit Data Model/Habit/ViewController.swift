@@ -33,29 +33,19 @@ class ViewController: UIViewController {
         alert.addTextField { (textField) in
             textField.placeholder = "Name"
         }
-        let action = UIAlertAction(title: "Create", style: .default) { (_) in
+        let action = UIAlertAction(title: "Create", style: .default) { _ in
             let name = alert.textFields!.first!.text!
             let habit = Habit(context: PersistenceServce.context)
             habit.name = name
             habit.id = UUID().uuidString
             habit.birthday = Date()
-            habit.health = "Healthy"
-            habit.healthXP = 100.0
-            habit.healthXPperSecond = 100.0 / 604800.0
-            habit.mood = "Happy"
-            habit.level = 1
-            habit.exp = 0.0
-            habit.maxExp = 100
             habit.lastClockedIn = Date()
-            habit.week = 1
-            habit.month = 1
-            habit.year = 1
-            PersistenceServce.saveContext()
             self.habits.append(habit)
             self.tableView.reloadData()
         }
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        PersistenceServce.saveContext()
     }
     
 }

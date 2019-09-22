@@ -10,7 +10,6 @@
 import Foundation
 import CoreData
 
-
 extension Habit {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Habit> {
